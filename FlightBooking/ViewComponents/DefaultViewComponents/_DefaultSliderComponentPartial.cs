@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace FlightBooking.ViewComponents
+namespace FlightBooking.ViewComponents.DefaultViewComponents
 {
-    public class _DefaultNavbarComponentPartial : ViewComponent
+    public class _DefaultSliderComponentPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {
